@@ -1,0 +1,7 @@
+document.addEventListener("keydown", function(event) {
+    if (event.key === "z" || event.key === "Z") {
+        const message = document.createElement("p");
+        message.textContent = "olá moço ou moça";
+        document.body.appendChild(message);
+    }
+});
